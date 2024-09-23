@@ -1,4 +1,7 @@
-hola
-probando
-si
-sirve
+Hombre(Marco)
+Pompeyano(Marco)
+¬Pompeyano(Marco) v Romano(Marco)
+Gobernante(Cesar)
+¬Romano(Marco) v Leal(Marco,Cesar) v Odia(Marco,Cesar)
+¬Hombre(Marco) v ¬Gobernante(Cesar) v IntentoAsesinar(Marco,Cesar) v ¬Leal(Marco,Cesar)
+IntentoAsesinar(Marco,Cesar)
